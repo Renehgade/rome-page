@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    padding: 0 20px;
+}
+  h1 {
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+    font-size: 34px;
+    line-height: 48px;
+  }
+  h2 {
+    text-align: center;
+    padding-top: 50px;
+  }
+  header h1 {
+    color: white;
+  }
+  footer {
+    text-align: center;
+    padding-top: 60px;
+    background: linear-gradient(
+      109.6deg,
+      rgb(157, 75, 199) 11.2%,
+      rgb(119, 81, 204) 83.1%);
+      color: white;
+  }
+    .navbar {
+    background: linear-gradient(
+      109.6deg,
+      rgb(157, 75, 199) 11.2%,
+      rgb(119, 81, 204) 83.1%
+    );
+   
+  }
+  .bg {
+  background: #d6c9f9;
+  }
+  .hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/240/original/hero.jpg?1696625109");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    text-align: center;
+  }
+  .hero-italy {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/246/original/rebe-adelaida-zunQwMy5B6M-unsplash.jpg?1696625349");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    text-align: center;
+    color: white;
+  }
+  .hero-greece {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/241/original/greece-hero.jpg?1696625159");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    text-align: center;
+    color: white;
+  }
+  .hero-scotland {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/242/original/scotland-hero.jpg?1696625187");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    text-align: center;
+    color: white;
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+  .italy-card-container, .greece-card-container, .scotland-card-container {
+    padding-top: 20px;
+  }
+  
+ @media (max-width: 800px) {
+    .hero h1 {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 800px) {
+    .hero p {
+      display: none;
+    }
+  }
+  
+  .country-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .country-button:hover {
+    background-color: #0056b3;
+  }
+  
