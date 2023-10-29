@@ -18,12 +18,10 @@ body {
 }
 
 .grid-2-columns {
+  padding: 10px;
   grid-template-columns: 1fr 1fr;
 }
 
-.grid-3-columns-with-first-narrow {
-  grid-template-columns: 1fr 2fr 2fr;
-}
 
 section {
   max-width: 1200px;
